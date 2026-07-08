@@ -1,24 +1,18 @@
-# G-Ride 🚕
+# Wasl Ride 🚕
 
-A full-stack taxi booking mobile application built as a solo project.
+A full-stack ride-hailing mobile app for riders and drivers, built as a solo project.
+Live at [waslride.com](https://waslride.com).
 
 ## Tech Stack
-- **Frontend:** React Native (Expo), TypeScript, NativeWind
-- **Backend:** Node.js (Express), Supabase, Drizzle ORM, MySQL
-- **API:** tRPC, React Query
-- **Features:** Real-time location tracking, secure authentication,
-  push notifications, persistent storage
+
+- **Frontend:** React Native (Expo), TypeScript, Expo Router (file-based routing), NativeWind
+- **Maps:** Google Maps on Android, Apple Maps on iOS (`react-native-maps`)
+- **Backend:** Supabase — Postgres database, Auth, Storage, Realtime, and Edge Functions
+- **Auth:** Phone login via WhatsApp OTP (delivered through Supabase Edge Functions)
+- **Realtime:** Supabase Realtime channels for live ride and driver-presence updates
+- **Notifications:** Expo push notifications
+- **Data/state:** React Query, Reanimated for animations
 
 ## Features
-- 🗺️ Real-time location tracking and mapping
-- 🔐 Secure authentication system
-- 📱 Responsive UI with reusable components
-- 🔔 Push notifications
-- ⚡ Type-safe client-server communication
 
-## Status
-🚧 In development — planned for release on Google Play & App Store
-
-## Author
-Georgio Ghamchoul
-[LinkedIn](your-linkedin-link)
+- 🗺️ Map-first rider exp
