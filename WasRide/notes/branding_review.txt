@@ -1,0 +1,4 @@
+Branding asset review on 2026-04-19:
+- assets/images/icon.png already contains Rebel Taxi branding with a gold location-pin road mark on a dark blue background.
+- assets/images/splash-icon.png matches the app icon and is already suitable for branded splash usage.
+- Because the requested branding assets are already present, Phase 4 should focus on loading states, error handling, and Arabic support rather than replacing the existing icon art.
